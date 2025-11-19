@@ -10,13 +10,14 @@ import { useState } from 'react';
 import styles from './index.module.css';
 
 const poetryList = [
-  "茶烟一缕轻轻扬，搅动兰膏四座香。",
-  "寒夜客来茶当酒，竹炉汤沸火初红。",
-  "矮纸斜行闲作草，晴窗细乳戏分茶。",
-  "茶甘露爽醍醐味，喜受阳和入骨吹。",
-  "独携天上小团月，来试人间第二泉。",
+  "一枪茶。二旗茶。休献机心名利家。无眠为作差。",
+  "三杯通大道，一斗合自然。",
+  "一樽齐死生，万事固难审。",
+  "两人对酌山花开，一杯一杯复一杯。",
+  "万籁此都寂，但余钟磬音。",
   "坐酌泠泠水，看煎瑟瑟尘。",
-  "无由持一碗，寄与爱茶人。"
+  "我来问道无馀说，云在青霄水在瓶。",
+  "溪花与禅意，相对亦忘言。"
 ];
 
 function HomepageHeader() {
@@ -40,7 +41,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             onClick={handleTeaClick}
           >
-            饮一杯茶
+            Welcome
           </button>
         </div>
         {currentPoetry && (

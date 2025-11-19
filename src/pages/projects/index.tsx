@@ -11,31 +11,7 @@ const ProjectList = [
     description: '基于 Docusaurus 构建的个人博客，记录技术学习和生活感悟',
     technologies: ['React', 'TypeScript', 'Docusaurus'],
     date: '2024-09-15',
-    status: '已完成',
-    link: '#',
-  },
-  {
-    title: '任务管理应用',
-    description: '一款简洁优雅的任务管理工具，帮助提高工作效率',
-    technologies: ['Vue.js', 'Node.js', 'MongoDB'],
-    date: '2024-08-20',
     status: '开发中',
-    link: '#',
-  },
-  {
-    title: '数据可视化平台',
-    description: '将复杂数据转化为直观的图表和仪表板',
-    technologies: ['React', 'D3.js', 'Python'],
-    date: '2024-07-10',
-    status: '已完成',
-    link: '#',
-  },
-  {
-    title: '移动端天气应用',
-    description: '响应式天气应用，提供准确的天气信息和预报',
-    technologies: ['React Native', 'Weather API'],
-    date: '2024-06-15',
-    status: '计划中',
     link: '#',
   },
 ];
@@ -62,7 +38,7 @@ export default function ProjectsPage(): ReactNode {
       <div className={styles.container}>
         <div className={styles.header}>
           <Heading as="h1">Project Display</Heading>
-          <p className={styles.subtitle}>项目展示 · 从构思到实现，完整记录开发过程和技术亮点</p>
+          <p className={styles.subtitle}>项目展示，包含关键节点相关思考</p>
         </div>
 
         <div className={styles.grid}>

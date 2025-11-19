@@ -13,28 +13,28 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Tech Blog',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/techblog.svg').default,
     description: (
       <>
-        技术博客，记录编程学习和开发的点点滴滴。分享技术心得、解决方案和行业见解。
+        AI / AI infra / Basics
       </>
     ),
   },
   {
-    title: 'Feelings',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Feeling',
+    Svg: require('@site/static/img/feelings.svg').default,
     description: (
       <>
-        心情感悟，生活中的美好瞬间和心灵独白。记录心情随笔、读书笔记和人生感悟。
+        留住瞬间思绪
       </>
     ),
   },
   {
-    title: 'Project Display',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Project',
+    Svg: require('@site/static/img/projects.svg').default,
     description: (
       <>
-        项目展示，展示个人作品和项目经验。从构思到实现，完整记录开发过程和技术亮点。
+        个人项目展示（包括施工中的项目）
       </>
     ),
   },
@@ -45,9 +45,9 @@ function Feature({title, Svg, description}: FeatureItem) {
     switch(title) {
       case 'Tech Blog':
         return '/blog';
-      case 'Feelings':
+      case 'Feeling':
         return '/feelings';
-      case 'Project Display':
+      case 'Project':
         return '/projects';
       default:
         return '/docs/intro';
@@ -67,7 +67,7 @@ function Feature({title, Svg, description}: FeatureItem) {
             className="button button--secondary button--lg"
             to={getLinkUrl(title)}
           >
-            进入
+            Show me
           </Link>
         </div>
       </div>

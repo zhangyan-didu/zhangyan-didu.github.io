@@ -7,29 +7,11 @@ import styles from './styles.module.css';
 
 const FeelingList = [
   {
-    title: '秋日的感悟',
-    description: '秋风起时，万物凋零，但也带来了新的思考',
-    date: '2024-09-15',
-    link: '#',
-  },
-  {
-    title: '编程与人生',
-    description: '代码的逻辑与人生的哲理，有着相似的韵律',
-    date: '2024-09-10',
-    link: '#',
-  },
-  {
-    title: '宁静的夜晚',
-    description: '夜深人静时，思绪如流水般涌动',
-    date: '2024-09-05',
-    link: '#',
-  },
-  {
-    title: '学习的快乐',
-    description: '掌握新知识时的那种成就感，是无价的',
-    date: '2024-09-01',
-    link: '#',
-  },
+    title: '输出',
+    description: '没有输出的输入，有意义吗？',
+    date: '2025-11-08',
+    link: '/docs/Feeling/2025-11-08',
+  }
 ];
 
 export default function FeelingsPage(): ReactNode {
@@ -37,11 +19,11 @@ export default function FeelingsPage(): ReactNode {
   return (
     <Layout
       title="Feelings"
-      description="记录生活中的美好瞬间和心灵独白">
+      description="抓住一缕烟">
       <div className={styles.container}>
         <div className={styles.header}>
           <Heading as="h1">Feelings</Heading>
-          <p className={styles.subtitle}>心情感悟 · 生活中的美好瞬间和心灵独白</p>
+          <p className={styles.subtitle}>抓住一缕烟</p>
         </div>
 
         <div className={styles.grid}>
