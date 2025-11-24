@@ -78,10 +78,10 @@ const config: Config = {
 
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
       type: 'text/css',
       integrity:
-        'sha384-odtC+0UGzzFL/6QkHlJt8K8fpk0+7MY2e9NC0xl7M44H+1X9lLBW5jW5u0K2K/7',
+        'sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV',
       crossorigin: 'anonymous',
     },
   ],
@@ -100,7 +100,6 @@ const config: Config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/feelings', label: 'Feeling', position: 'left'},
         {
           href: 'https://github.com/zhangyan-didu/zhangyan-didu.github.io',
           label: 'GitHub',

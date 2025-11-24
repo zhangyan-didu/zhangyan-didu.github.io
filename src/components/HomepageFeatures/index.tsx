@@ -21,15 +21,6 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Feeling',
-    Svg: require('@site/static/img/feelings.svg').default,
-    description: (
-      <>
-        留住瞬间思绪
-      </>
-    ),
-  },
-  {
     title: 'Project',
     Svg: require('@site/static/img/projects.svg').default,
     description: (
@@ -45,8 +36,6 @@ function Feature({title, Svg, description}: FeatureItem) {
     switch(title) {
       case 'Tech Blog':
         return '/blog';
-      case 'Feeling':
-        return '/feelings';
       case 'Project':
         return '/projects';
       default:
