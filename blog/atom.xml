@@ -161,7 +161,7 @@ Loss &amp;= -\mathbb{E}_{(x,y_w,y_l)\sim D}\left[ln\frac{\exp(r(x,y_w))}{\exp(r(
         <id>https://zhangyan-didu.github.io/blog/2025/11/19/welcome/GPT系列(1,2,3,4)</id>
         <link href="https://zhangyan-didu.github.io/blog/2025/11/19/welcome/GPT系列(1,2,3,4)"/>
         <updated>2025-11-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GPT1，2，3，4系列技术简介]]></summary>
+        <summary type="html"><![CDATA[GPT1--Improving Language Understanding by Generative Pre-Training]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[GEMM优化笔记]]></title>
